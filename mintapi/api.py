@@ -8,7 +8,7 @@ import xmltodict
 import keyring
 
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.poolmanager import PoolManager
+from urllib3.poolmanager import PoolManager
 
 try:
     import pandas as pd
